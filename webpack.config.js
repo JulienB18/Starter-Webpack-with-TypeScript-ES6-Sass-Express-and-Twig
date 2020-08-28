@@ -40,7 +40,8 @@ module.exports = {
                             minimize: true
                         }
                     },
-                    'sass-loader?sourceMap'
+                    'sass-loader?sourceMap',
+                    'resolve-url-loader'
                 ]
             },
             {   

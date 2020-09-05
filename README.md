@@ -15,9 +15,9 @@ $ npm run build-watch
 
 ---
 
-If you want to run the production version use :
+If you want to run the production version with the last built version use :
 ```
-$ npm run build-production
+$ npm run production-last-build
 ```
 
 ---

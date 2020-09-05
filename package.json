@@ -8,7 +8,7 @@
         "start": "nodemon server.js -e js,ts,twig,html,css,scss",
         "build": "webpack --progress --colors",
         "build-watch": " webpack --watch --progress --colors",
-        "build-production": "webpack -p --progress --colors"
+        "production-last-build": "uglifyjs public/dist/main.js -o public/dist/main.js"
     },
     "dependencies": {
         "css-loader": "^0.28.0",
@@ -24,6 +24,7 @@
         "ts-loader": "^2.0.3",
         "twig": "^1.15.2",
         "typescript": "^2.2.1",
+        "uglify-es": "^3.3.9",
         "webpack": "^2.3.3"
     },
     "author": "Julien Boutet"
